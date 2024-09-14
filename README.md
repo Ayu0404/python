@@ -22,5 +22,22 @@ It calculates the `total_amt` to be paid at the restaurant and the divides by `n
 
 ### Your lifetime is finite
 
-[Inspiration](https://waitbutwhy.com/2014/05/life-weeks.html)
+[Inspiration](https://waitbutwhy.com/2014/05/life-weeks.html).
 This program takes an input `age` and returns the number of years, months and weeks you have lived.
+
+## Day 3
+
+### Leap Year
+
+The program check wether the entered year is a leap year or not. A leap year is a year that is divisible by 4, except it is divisible be 100 unless also divisible by 400.
+
+## Day 4
+
+### Banker's Roulette
+
+The program takes a string of `names`, converts it into an array and uses a random function to draw out the name of the person who pays for tonight's dinner.
+This is Banker's Roulette because this is a classic case of how bankers pay for their lunch/ dinner. When the waiter arrives with the bill, the bankers collect their credit cards in a hat and the waiter randomly picks out a card from the had. Whose card is drawn they pay for all.
+
+### Rock Paper Scissor
+
+Yes. The exact Rock Paper Scissor you used to play with a friend. But here, you can play with the computer.

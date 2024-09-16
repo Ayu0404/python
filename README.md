@@ -61,6 +61,17 @@ For and while loops.
 
 ### Hangman
 
-This program replicates the game of Hangman. Here, you have to guess a word. Every successful guess will reveal you the characters in the word. Every unsuccessful guess loses a life. You have seven lives to guess the correct.
-You you guess the correct characters and find the word, YOU WIN.
-If not, you hang the man.
+This program replicates the game of Hangman. Here, you have to guess a word. Every successful guess will reveal you the characters in the word. Every unsuccessful guess loses a life. You have seven lives to guess the correct word.
+If you guess the correct characters and find the word, YOU WIN. If not, you hang the man and you lose.
+
+## Day 8
+
+### Prime Numbers
+
+- To check wether a given number is prime or not, we find the remainder of the given number by finding the modulus `%` by dividing it from 2 to `number-1`.
+- If for any of number ranging between 2 and `number-1`, the remainder is zero, this means that the `ith` number completely divides the given number `num`. This implies that the `ith` number is a factor of `num`. By definition, prime numbers only have 1 and the number itself as its factors. Hence, `num` is not a prime number.
+- If there remainder for the range of 2 to `number-1` is not zero, `num` is a prime number.
+
+### Caesar Cipher
+
+- Caesar Cipher is an encryption and decryption algorithm. This program creates a simple encryption and decryption program that encrypts and decrypts a text message using a given key.

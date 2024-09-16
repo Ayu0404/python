@@ -41,3 +41,26 @@ This is Banker's Roulette because this is a classic case of how bankers pay for 
 ### Rock Paper Scissor
 
 Yes. The exact Rock Paper Scissor you used to play with a friend. But here, you can play with the computer.
+
+## Day 5
+
+### Password Generator
+
+This program takes three inputs.
+
+- `length`: of the password
+- `nums`: Number of numbers to be included
+- `special_char`: Number of special characters  
+  It generates a random password based on an input. Go on! Use it to generate a random un-hackable password ever.
+
+## Day 6
+
+For and while loops.
+
+## Day 7
+
+### Hangman
+
+This program replicates the game of Hangman. Here, you have to guess a word. Every successful guess will reveal you the characters in the word. Every unsuccessful guess loses a life. You have seven lives to guess the correct.
+You you guess the correct characters and find the word, YOU WIN.
+If not, you hang the man.

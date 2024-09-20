@@ -75,3 +75,22 @@ If you guess the correct characters and find the word, YOU WIN. If not, you hang
 ### Caesar Cipher
 
 - Caesar Cipher is an encryption and decryption algorithm. This program creates a simple encryption and decryption program that encrypts and decrypts a text message using a given key.
+
+## Day 9
+
+### Silent Auction
+
+This program takes username and biding price from the user and stores it in a python dictionary. As oiuput, it displays the maxumum bidder - the name and amount.
+
+## Day 10
+
+### Days in a Month
+
+This program takes the `year` and `month` as an input and displays the number of days in the month, including the additional day of February in a leap year.
+
+## Day 11
+
+## BlackJack Game
+
+[Inspiration](https://www.247blackjack.com/).
+This is a simple version of a BlackJack between a Dealer (Computer) and a Player(You). Here you draw 2 cards initially and have an option to draw more cards to reach greater than or equal to the unknown sum of cards of the Dealer.

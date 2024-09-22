@@ -94,3 +94,12 @@ This program takes the `year` and `month` as an input and displays the number of
 
 [Inspiration](https://www.247blackjack.com/).
 This is a simple version of a BlackJack between a Dealer (Computer) and a Player(You). Here you draw 2 cards initially and have an option to draw more cards to reach greater than or equal to the unknown sum of cards of the Dealer.
+
+## D12
+
+## Number Guessing
+
+This program has two levels
+
+- Easy: You get 10 chances to guess a number between 1 and 100
+- Hard: You get 5 chances to guess a number between 1 and 100

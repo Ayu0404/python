@@ -95,7 +95,7 @@ This program takes the `year` and `month` as an input and displays the number of
 [Inspiration](https://www.247blackjack.com/).
 This is a simple version of a BlackJack between a Dealer (Computer) and a Player(You). Here you draw 2 cards initially and have an option to draw more cards to reach greater than or equal to the unknown sum of cards of the Dealer.
 
-## D12
+## Day 12
 
 ## Number Guessing
 
@@ -103,3 +103,30 @@ This program has two levels
 
 - Easy: You get 10 chances to guess a number between 1 and 100
 - Hard: You get 5 chances to guess a number between 1 and 100
+
+## Day 13
+
+## Ways of Debugging
+
+1. Describe the problem - by asking questions. What is the problem? Why is the problem occurring? What am I missing? What am I assuming?
+2. Reproduce the bug - Run it again and again. When does that error occur again?
+3. Act like the interpreter - (or compiler - based on the programming language you are using). Break it down to very minute and logical condition.
+4. Fix the error - When working on an editor, when you hover over a curly line under your code - like like a syntax error, fix it. Follow the programming rules, logic, syntax, [StackOverflow](https://stackoverflow.com/) to fix.
+5. Use display statements - to display out on console/ webpage. Use them a lot while debugging.
+6. Debugger and Breakpoints - To hover over line by line of code and check it in real execution time. Breakpoint is a point where the code stops in real time - for you to explore and debug.
+7. Take a break - Step away. Go for a walk. Sleep on it and tackle it tomorrow.
+8. Ask someone - A fellow developer, a colleague or a friend.
+9. Run - Run the code after solving one smaller problem. Don't compile it all together and wait to run in the end.
+
+## Day 14
+
+### Higher Lower
+
+[Inspiration](http://www.higherlowergame.com/)
+This program provides you with two choices. If you select the correct choice according to the popularity of the celebrity, you gain a score. If not, you lose.
+
+## Day 16
+
+### Coffee Machine
+
+Your regular coffee machine serving you espresso/latte/cappuccino. Just like a machine, it has existing resources (milk, coffee and water) and checks wether it can prepare coffee for you. You also need to pay the machine in coins to successfully oder coffee.

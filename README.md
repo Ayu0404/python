@@ -124,3 +124,9 @@ This program has two levels
 
 [Inspiration](http://www.higherlowergame.com/)
 This program provides you with two choices. If you select the correct choice according to the popularity of the celebrity, you gain a score. If not, you lose.
+
+## Day 16
+
+### Coffee Machine
+
+Your regular coffee machine serving you espresso/latte/cappuccino. Just like a machine, it has existing resources (milk, coffee and water) and checks wether it can prepare coffee for you. You also need to pay the machine in coins to successfully oder coffee.

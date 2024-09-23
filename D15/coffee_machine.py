@@ -55,7 +55,8 @@ def coffee_machine():
         
         if order == 'resources':
             get_resources()
-        
+            order=input('What would you like? (espresso/latte/cappuccino)? ').lower()
+            
         if order == 'off':
             is_working=False
             print('Machine turned off.')

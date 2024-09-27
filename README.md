@@ -1,5 +1,7 @@
 # Python Projects
 
+(Angela Yu - 100 Days of Python)[https://www.udemy.com/course/100-days-of-code/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_Alpha_Prof_la.EN_cc.India&campaigntype=Search&portfolio=India&language=EN&product=Course&test=&audience=DSA&topic=Python&priority=Alpha&utm_content=deal4584&utm_term=_._ag_160270535025_._ad_696202838298_._kw__._de_c_._dm__._pl__._ti_dsa-1705455366924_._li_9061702_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQjwgL-3BhDnARIsAL6KZ6-gBZq5o46yYS9P0TztZNpsi2dOg0qkKPERpx6nDPiYixRanPK2KzwaAjJGEALw_wcB]
+
 ## Day 1
 
 ### String Concatenation and printing name
@@ -125,8 +127,28 @@ This program has two levels
 [Inspiration](http://www.higherlowergame.com/)
 This program provides you with two choices. If you select the correct choice according to the popularity of the celebrity, you gain a score. If not, you lose.
 
-## Day 16
+## Day 15
 
 ### Coffee Machine
 
 Your regular coffee machine serving you espresso/latte/cappuccino. Just like a machine, it has existing resources (milk, coffee and water) and checks wether it can prepare coffee for you. You also need to pay the machine in coins to successfully oder coffee.
+
+# Day 16
+
+Introducation to classes and objects.
+
+## Day 17
+
+### Quiz
+
+A True/ False quiz that takes answers from a user and displays user score. The program is implemented to demonstrate OOP - Object Oriented Programing Concepts.
+
+## Day 18
+
+### Timmy - The Turtle
+
+An adorable Turtle - Timmy is on adventure. He first learns to `draw_dotted_line()`, then `draw_shapes()`, starts to walk randomly in any and every direction `random_walk()` and finally draws his favourite `draw_spirograph(n)` with n spaces. Timmy uses (this library)[https://docs.python.org/3/library/turtle.html]
+
+### Hirst Painting
+
+Damien Hirst - an Artist and Art Collector sold many of his paintings. He has a Series of paintings called Spots - as the name suggests - the canvas is fulled with dots of different collors. Timmy the turtle draws a Spot painting using the (Turtle)[https://docs.python.org/3/library/turtle.html] and (Colorgram)[https://pypi.org/project/colorgram.py/] library.

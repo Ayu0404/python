@@ -1,6 +1,6 @@
 # Python Projects
 
-(Angela Yu - 100 Days of Python)[https://www.udemy.com/course/100-days-of-code/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_Alpha_Prof_la.EN_cc.India&campaigntype=Search&portfolio=India&language=EN&product=Course&test=&audience=DSA&topic=Python&priority=Alpha&utm_content=deal4584&utm_term=_._ag_160270535025_._ad_696202838298_._kw__._de_c_._dm__._pl__._ti_dsa-1705455366924_._li_9061702_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQjwgL-3BhDnARIsAL6KZ6-gBZq5o46yYS9P0TztZNpsi2dOg0qkKPERpx6nDPiYixRanPK2KzwaAjJGEALw_wcB]
+[Angela Yu - 100 Days of Python](https://www.udemy.com/course/100-days-of-code/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Search_DSA_Alpha_Prof_la.EN_cc.India&campaigntype=Search&portfolio=India&language=EN&product=Course&test=&audience=DSA&topic=Python&priority=Alpha&utm_content=deal4584&utm_term=_._ag_160270535025_._ad_696202838298_._kw__._de_c_._dm__._pl__._ti_dsa-1705455366924_._li_9061702_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQjwgL-3BhDnARIsAL6KZ6-gBZq5o46yYS9P0TztZNpsi2dOg0qkKPERpx6nDPiYixRanPK2KzwaAjJGEALw_wcB)
 
 ## Day 1
 
@@ -147,8 +147,8 @@ A True/ False quiz that takes answers from a user and displays user score. The p
 
 ### Timmy - The Turtle
 
-An adorable Turtle - Timmy is on adventure. He first learns to `draw_dotted_line()`, then `draw_shapes()`, starts to walk randomly in any and every direction `random_walk()` and finally draws his favourite `draw_spirograph(n)` with n spaces. Timmy uses (this library)[https://docs.python.org/3/library/turtle.html]
+An adorable Turtle - Timmy is on adventure. He first learns to `draw_dotted_line()`, then `draw_shapes()`, starts to walk randomly in any and every direction `random_walk()` and finally draws his favourite `draw_spirograph(n)` with n spaces. Timmy uses [this library](https://docs.python.org/3/library/turtle.html)
 
 ### Hirst Painting
 
-Damien Hirst - an Artist and Art Collector sold many of his paintings. He has a Series of paintings called Spots - as the name suggests - the canvas is fulled with dots of different collors. Timmy the turtle draws a Spot painting using the (Turtle)[https://docs.python.org/3/library/turtle.html] and (Colorgram)[https://pypi.org/project/colorgram.py/] library.
+Damien Hirst - an Artist and Art Collector sold many of his paintings. He has a Series of paintings called Spots - as the name suggests - the canvas is fulled with dots of different collors. Timmy the turtle draws a Spot painting using the [Turtle](https://docs.python.org/3/library/turtle.html) and [Colorgram](https://pypi.org/project/colorgram.py/) library.

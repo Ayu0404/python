@@ -152,3 +152,19 @@ An adorable Turtle - Timmy is on adventure. He first learns to `draw_dotted_line
 ### Hirst Painting
 
 Damien Hirst - an Artist and Art Collector sold many of his paintings. He has a Series of paintings called Spots - as the name suggests - the canvas is fulled with dots of different collors. Timmy the turtle draws a Spot painting using the [Turtle](https://docs.python.org/3/library/turtle.html) and [Colorgram](https://pypi.org/project/colorgram.py/) library.
+
+## Day 19
+
+### Etch-A-Sketch
+
+Timmy - The Turtle replicates the game of Etch-A-Sketch. Keys used to draw on the screen are
+
+- Key `w`: moves forward
+- Key `s`: moves Backward
+- Key `a`: moves counter clockwise
+- Key `d`: moves clockwise
+- Key `c`: Clears the screen
+
+### Turtle Race
+
+Timmy brings along his friends (5 other turtles) and they race. You as a spectator place a bet on the turtles to see who won.

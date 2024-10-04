@@ -168,3 +168,9 @@ Timmy - The Turtle replicates the game of Etch-A-Sketch. Keys used to draw on th
 ### Turtle Race
 
 Timmy brings along his friends (5 other turtles) and they race. You as a spectator place a bet on the turtles to see who won.
+
+## Day 20 and 21
+
+### Snake Game
+
+The classic snake and food game build using Turtle library.

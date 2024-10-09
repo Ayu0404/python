@@ -174,3 +174,12 @@ Timmy brings along his friends (5 other turtles) and they race. You as a spectat
 ### Snake Game
 
 The classic snake and food game build using Turtle library.
+
+## Day 22
+
+### Pong Game
+
+The classic Pong Game where two players each have a paddle and score a point when -
+
+1. When the player successfully hits the ball
+2. When the other player missess the ball

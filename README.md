@@ -183,3 +183,9 @@ The classic Pong Game where two players each have a paddle and score a point whe
 
 1. When the player successfully hits the ball
 2. When the other player missess the ball
+
+## Day 23
+
+### Turtle Crossing Game
+
+Timmy the turtle is at the edge of a road and wants to cross it to reach the other side. On the road, he needs to avoid colliding into the car. Can you make Timmy cross the road? The speed of the cars increases as you level up.

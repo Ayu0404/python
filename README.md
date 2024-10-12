@@ -196,3 +196,9 @@ Timmy the turtle is at the edge of a road and wants to cross it to reach the oth
 
 1. Using File Handling - `open()` `read()` `write()` and `close()` to save data in Snake Game.
 2. Creating a mail merge - replacing a placeholder with the first name, in a text file.
+
+## Day 25
+
+### Introduction to pandas
+
+Using pandas library to perform data analysis on [2018 Central Park Squirrels](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw/about_data)

@@ -189,3 +189,10 @@ The classic Pong Game where two players each have a paddle and score a point whe
 ### Turtle Crossing Game
 
 Timmy the turtle is at the edge of a road and wants to cross it to reach the other side. On the road, he needs to avoid colliding into the car. Can you make Timmy cross the road? The speed of the cars increases as you level up.
+
+## Day 24
+
+### File Handling
+
+1. Using File Handling - `open()` `read()` `write()` and `close()` to save data in Snake Game.
+2. Creating a mail merge - replacing a placeholder with the first name, in a text file.

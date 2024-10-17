@@ -201,4 +201,12 @@ Timmy the turtle is at the edge of a road and wants to cross it to reach the oth
 
 ### Introduction to pandas
 
-Using pandas library to perform data analysis on [2018 Central Park Squirrels](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw/about_data)
+1. Using pandas library to perform data analysis on [2018 Central Park Squirrels](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw/about_data)
+2. Guess the state - A fun quiz to test your knowledge about US states. he game is implemented using tutle and pandas library.
+
+## Day 26
+
+### List and Dictionary Comprehension
+
+1. List Comprehension - Simple tasks to comprehend the concept and syntax. Updated Guess the state to use the same.
+1. Dictionary Comprehension - Simple tasks to comprehend the concept and syntax. Created NATO Alphabet game.

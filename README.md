@@ -210,3 +210,17 @@ Timmy the turtle is at the edge of a road and wants to cross it to reach the oth
 
 1. List Comprehension - Simple tasks to comprehend the concept and syntax. Updated Guess the state to use the same.
 1. Dictionary Comprehension - Simple tasks to comprehend the concept and syntax. Created NATO Alphabet game.
+
+## Day 27
+
+### Introduction to TkInter library
+
+1. Functional Arguments - are usually used to assign a default values for optional arguments. Eg: Turtle.write(), args is mandatory but font() tupple etc is optional becuase it has an initial predefined value.
+2. Keyword \*args - Pass n number of arguments. The argument is passed as a list.
+3. Keywords \*kwargs - Key Words Arguments. The argument is passed as a dictionary.
+
+_In a dictionary, dict_name.get('key_name') - returns None whereas dict_name['key_name'], when the `key_name` is not present returns undefined._
+
+### Miles to Kilometers
+
+A simple demonstration of `Tkinter` linrary to use `Labels`, `Buttons` and `window` to convert a distance in miles to kilometers.

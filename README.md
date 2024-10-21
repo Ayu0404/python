@@ -224,3 +224,9 @@ _In a dictionary, dict_name.get('key_name') - returns None whereas dict_name['ke
 ### Miles to Kilometers
 
 A simple demonstration of `Tkinter` linrary to use `Labels`, `Buttons` and `window` to convert a distance in miles to kilometers.
+
+## Day 28
+
+### Pomodoro Clock
+
+A GUI Application for concentrated work. 25 miutes of deep work and 5 minutes break.

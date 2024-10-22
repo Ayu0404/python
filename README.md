@@ -230,3 +230,9 @@ A simple demonstration of `Tkinter` linrary to use `Labels`, `Buttons` and `wind
 ### Pomodoro Clock
 
 A GUI Application for concentrated work. 25 miutes of deep work and 5 minutes break.
+
+## Day 29
+
+### Password Manager
+
+An interactive password manager that strres the name of the website, email/ username and password in a data.txt file/

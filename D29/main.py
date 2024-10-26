@@ -3,6 +3,7 @@ import random
 import string
 from tkinter import messagebox
 import pyperclip
+import json
 
 LENGTH=20
 NUMBERS=string.digits
@@ -34,18 +35,65 @@ def generate_password():
     pswd_entry.insert(0,f'{pswd_generated}')
 
 
+def save(website,email,password):
+    new_obj={
+        website:{
+            'username':email,
+            'password':password
+        }
+    }
+    try:
+        with open('D29/data.json') as datafile:
+            # Reading the old data
+            data=json.load(datafile)
+    except (FileNotFoundError):
+        data={}
+        data.update(new_obj)
+        with open('D29/data.json','w') as datafile:
+            # Dump newly created data
+            json.dump(data,datafile,indent=2)
+    else:
+        # Updating old data with ne
+        data.update(new_obj)
+        with open('D29/data.json','w') as datafile:
+            # Dump newly created data
+            json.dump(data,datafile,indent=2)
+    finally:
+        website_entry.delete(0,END)
+        pswd_entry.delete(0,END)
+
+
 # Save Password
 def add_record():
-    if not website_entry.get() or not pswd_entry.get():
+    website_name=website_entry.get()
+    entered_pswd=pswd_entry.get()
+
+    if not website_name or not entered_pswd:
         messagebox.showwarning(title='Warning',message='Do not leave any field empty.')
     else:
-        is_confirmed=messagebox.askokcancel(title=f'{website_entry.get()}',message=f'The details entered are: \nWebsite: {website_entry.get()} \nUsername/Email: {email_entry.get()} \nPassword: {pswd_entry.get()}')
+        save(website_name,email_entry.get(),entered_pswd)
+        
 
-        if is_confirmed:
-            with open('D29/data.txt','a') as file:
-                file.write(f'{website_entry.get()} | {email_entry.get()} | {pswd_entry.get()}\n')
+def search():
+    website=website_entry.get()
+    if not website:
+        messagebox.showwarning(title='Warning',message='Enter the website name.')
+    else:
+        try:
+            with open('D29/data.json') as datafile:
+                data=json.load(datafile)
+        except FileNotFoundError:
+            messagebox.showwarning(title='No Data Found',message=f'Username and Password for {website} does not exist.')
+        else:
+            if website in data:
+                username=data[website]['username']
+                password=data[website]['password']
+                messagebox.showinfo(title=website.title(),message=f'Username: {username}\nPassword: {password}')
+            else:
+                messagebox.showwarning(title='No Data Found',message=f'Username and Password for {website} does not exist.')
+        finally:
             website_entry.delete(0,END)
-            pswd_entry.delete(0,END)
+
 
 
 # UI Setup
@@ -70,9 +118,9 @@ pswd_label = Label(text='Password')
 pswd_label.grid(row=3, column=0)
 
 # Entries
-website_entry = Entry(width=35)
+website_entry = Entry(width=21)
 website_entry.focus()
-website_entry.grid(row=1, column=1, columnspan=2)
+website_entry.grid(row=1, column=1)
 
 email_entry = Entry(width=35)
 email_entry.insert(0,'ayushi@gmail.com')
@@ -87,5 +135,8 @@ generate_pswd.grid(row=3, column=2)
 
 add_btn = Button(text='Add', width=36,command=add_record)
 add_btn.grid(row=4, column=1, columnspan=2)
+
+search_btn=Button(text='Search',width=10,command=search)
+search_btn.grid(row=1, column=2)
 
 window.mainloop()

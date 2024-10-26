@@ -236,3 +236,15 @@ A GUI Application for concentrated work. 25 miutes of deep work and 5 minutes br
 ### Password Manager
 
 An interactive password manager that strres the name of the website, email/ username and password in a data.txt file/
+
+## Day 30
+
+### Errors and Exception Handling
+
+1. Covered `try`, `catch`, `else` and `finally block`
+2. Custom errors using `raise` keyword
+3. Updated Day 26 - NATO to convert only alphabets to their corresponding NATO Alphabets
+4. Updated Day 29 Password Manager by adding -
+
+- Exception Handling
+- Adding Search functionality

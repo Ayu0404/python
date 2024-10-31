@@ -254,3 +254,10 @@ An interactive password manager that strres the name of the website, email/ user
 ### Flash Cards
 
 A project with the top most common 500 Norwegian words. At random, a flash card with a Norwegian word appears. After three seconds, the English translation is revealed by flipping the card. The project is implemented using TkInter - to build the GUI and Pandas - for data manuplation.
+
+## Day 32
+
+### Mail Merge
+
+1. Sending Motiational Quote on a day of the weel.
+2. Sending happy birthday email from a csv if the date and the month are the same as the day today.

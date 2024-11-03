@@ -2,15 +2,20 @@ import pandas
 import random
 import smtplib
 import datetime as dt
+from dotenv import load_dotenv
+import os
+
+load_dotenv('.gitignore/.env')
+my_email=email=os.getenv('EMAIL')
+pswd=os.getenv('PSWD')
+to=os.getenv('TO')
+now=dt.datetime.now()
 
 LETTERS=[
     'D32/birthday_wisher/letter_templates/letter_1.txt',
     'D32/birthday_wisher/letter_templates/letter_2.txt',
     'D32/birthday_wisher/letter_templates/letter_3.txt'
 ]
-my_email='arai8548@gmail.com'
-pswd='yffe ufns pdjz kffa'
-to='ayushiraiar@gmail.com'
 
 # 1. Read the csv file
 df=pandas.read_csv('D32/birthday_wisher/birthdays.csv')

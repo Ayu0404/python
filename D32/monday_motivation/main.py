@@ -2,10 +2,13 @@ import smtplib
 import datetime as dt
 import pandas
 import random
+from dotenv import load_dotenv
+import os
 
-my_email='arai8548@gmail.com'
-pswd='yffe ufns pdjz kffa'
-to='ayushiraiar@gmail.com'
+load_dotenv('.gitignore/.env')
+my_email=email=os.getenv('EMAIL')
+pswd=os.getenv('PSWD')
+to=os.getenv('TO')
 now=dt.datetime.now()
 
 if now.weekday()==0:

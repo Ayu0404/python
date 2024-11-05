@@ -5,7 +5,7 @@ import datetime as dt
 from dotenv import load_dotenv
 import os
 
-load_dotenv('.gitignore/.env')
+load_dotenv()
 my_email=email=os.getenv('EMAIL')
 pswd=os.getenv('PSWD')
 to=os.getenv('TO')

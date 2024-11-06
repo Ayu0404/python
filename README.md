@@ -267,3 +267,12 @@ A project with the top most common 500 Norwegian words. At random, a flash card 
 ## API Introduction
 
 ISS Space Station Tracker - Using the ISS API to check it's position against my position, an email is delivered notifying that the ISS is above you in the night sky.
+
+## Day 34
+
+Rebuilding the Quiz Application using Tkinter and Quiz Trivia Database.
+
+## Day 35
+
+Advanced API Integration using open weather API and Twillio.
+Introduction to environment variables.

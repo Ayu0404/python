@@ -276,3 +276,5 @@ Rebuilding the Quiz Application using Tkinter and Quiz Trivia Database.
 
 Advanced API Integration using open weather API and Twillio.
 Introduction to environment variables.
+
+## Day 36

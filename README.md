@@ -283,8 +283,7 @@ Created a stock notifier app that uses Alphavantage and NewsAPI to fetch data.
 
 ## Day 37
 
-?????????????
-Build a Habbit tracking project
+A Habbit tracking project using [Pixela](https://docs.pixe.la/)
 
 ## Day 38
 

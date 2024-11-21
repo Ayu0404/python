@@ -278,3 +278,14 @@ Advanced API Integration using open weather API and Twillio.
 Introduction to environment variables.
 
 ## Day 36
+
+Created a stock notifier app that uses Alphavantage and NewsAPI to fetch data.
+
+## Day 37
+
+?????????????
+Build a Habbit tracking project
+
+## Day 38
+
+Workout Tracker - Built an exercise tracking app using natural language processing and Google sheets.

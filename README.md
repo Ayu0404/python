@@ -288,3 +288,31 @@ A Habbit tracking project using [Pixela](https://docs.pixe.la/)
 ## Day 38
 
 Workout Tracker - Built an exercise tracking app using natural language processing and Google sheets.
+[Google Sheets API](https://sheety.co/)
+
+## Day 39-40
+
+!!!!!TODO AT LAST!!!!!
+Flight Capstone Project. Didn't do it.
+
+## Day 41 HTML for begineers
+
+1. How does the internet work?
+2. How do websites work?
+3. Introduction to HTML
+
+## Day 42 HTML tags
+
+1. HTML Template
+2. Nested `ul` and `ol`
+3. Introduction to HTML
+4. `a`, `img` tag
+
+## Day 43
+
+1. CSS Introduction
+2. Types of CSS - Inline, Internal and External ()
+3. CSS Selectors - element, class and id
+4. Attribute Selector 
+  - `html[attribute]{}` It means that select all the html elements with the given attribute
+ - `*` - Select all 

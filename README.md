@@ -313,6 +313,20 @@ Flight Capstone Project. Didn't do it.
 1. CSS Introduction
 2. Types of CSS - Inline, Internal and External ()
 3. CSS Selectors - element, class and id
-4. Attribute Selector 
-  - `html[attribute]{}` It means that select all the html elements with the given attribute
- - `*` - Select all 
+4. Attribute Selector
+
+- `html[attribute]{}` It means that select all the html elements with the given attribute
+- `*` - Select all
+
+## Day 44
+
+1. CSS Properties - Color, font
+2. Size
+
+- pixels
+- Point example a 12 point size on word document
+- 1em 100% of parent
+- 1rem 100% of root
+
+3. Box Model - Paddng, Margin, Border
+4. Create a meme

@@ -330,3 +330,11 @@ Flight Capstone Project. Didn't do it.
 
 3. Box Model - Paddng, Margin, Border
 4. Create a meme
+
+## Day 45
+
+Web Scraping using BeautifulSoup
+`robot.txt`: Files that shows what should not be scraped.
+
+1. From [News](https://news.ycombinator.com/newest), extracted news title and its points assigned (popularity).
+2. From [Movies](https://www.empireonline.com/movies/features/best-movies-2/), extracted top 100 movies.

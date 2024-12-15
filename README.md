@@ -336,5 +336,10 @@ Flight Capstone Project. Didn't do it.
 Web Scraping using BeautifulSoup
 `robot.txt`: Files that shows what should not be scraped.
 
-1. From [News](https://news.ycombinator.com/newest), extracted news title and its points assigned (popularity).
-2. From [Movies](https://www.empireonline.com/movies/features/best-movies-2/), extracted top 100 movies.
+1. From [News](https://news.ycombinator.com/newest) extracted news title and its points assigned (popularity).
+2. From [Movies](https://www.empireonline.com/movies/features/best-movies-2/) extracted top 100 movies.
+
+## Day 46
+
+Playlist by scraping [Billboard on a given date](https://www.billboard.com/charts/hot-100/2000-08-12/)
+_Copied code because I was getting a 403 error._

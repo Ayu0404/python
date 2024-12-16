@@ -343,3 +343,7 @@ Web Scraping using BeautifulSoup
 
 Playlist by scraping [Billboard on a given date](https://www.billboard.com/charts/hot-100/2000-08-12/)
 _Copied code because I was getting a 403 error._
+
+## Day 47
+
+A program that checks wether an item costs less than a threshold price. If it does, an email is sent. Used beautiful soup to scrape price from ecommerce website and smtp protocol to email an alert.

@@ -347,3 +347,10 @@ _Copied code because I was getting a 403 error._
 ## Day 47
 
 A program that checks wether an item costs less than a threshold price. If it does, an email is sent. Used beautiful soup to scrape price from ecommerce website and smtp protocol to email an alert.
+
+## Day 48
+
+Introduction to Chrome Driver and Selenium
+
+1. Interaction with webpave using selenium `findElement`, `By`, `click()` etc
+2. Gained score and bought Grandmas on [Cookie Game](https://orteil.dashnet.org/experiments/cookie/)

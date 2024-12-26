@@ -354,3 +354,11 @@ Introduction to Chrome Driver and Selenium
 
 1. Interaction with webpave using selenium `findElement`, `By`, `click()` etc
 2. Gained score and bought Grandmas on [Cookie Game](https://orteil.dashnet.org/experiments/cookie/)
+
+## Day 49
+
+LinkedIn Job Automation
+To Be Done
+
+Day 39-40 TBD
+Day 47 to 53 is automation using selenium. To be done later.

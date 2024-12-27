@@ -362,3 +362,23 @@ To Be Done
 
 Day 39-40 TBD
 Day 47 to 53 is automation using selenium. To be done later.
+
+## Day 54 and 55
+
+Done in folder D55
+
+### D54 Introduction to Flask
+
+In python, functions are first clas objects.
+Decorator function - adds additional functionality to a function.
+`__name__` is a special variable that gives the current class/ function/ descriptor name.
+
+### D55 Decorator Functions
+
+Bold, Italics and Underline using decorator function
+
+## Day 56
+
+Rendering Static HTML and CSS
+PRoject - A static website (like an e-business card)
+[HTML5 Templates](https://html5up.net/)

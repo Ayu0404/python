@@ -382,3 +382,10 @@ Bold, Italics and Underline using decorator function
 Rendering Static HTML and CSS
 PRoject - A static website (like an e-business card)
 [HTML5 Templates](https://html5up.net/)
+
+## Day 57
+
+Introduction Jinja template
+
+1. Guessing the [gender](https://genderize.io/) and [age](https://agify.io/) of entered name
+2. Blogs. Stored data by creating [json](https://www.npoint.io/)

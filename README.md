@@ -389,3 +389,9 @@ Introduction Jinja template
 
 1. Guessing the [gender](https://genderize.io/) and [age](https://agify.io/) of entered name
 2. Blogs. Stored data by creating [json](https://www.npoint.io/)
+
+## Day 58 Bootstrap
+
+1. Introduction to bootstrap
+2. A static webpage of a moving dummy company - moveit
+3. A static webpage of a dating website for dogs - tindog

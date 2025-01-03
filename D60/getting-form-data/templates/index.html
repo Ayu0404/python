@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form name="sentData" action="/welcome" method="post">
+      <label for="Name">Name<input type="text" name="fullName" /></label>
+      <label for="Email">Email <input type="email" name="email" /></label>
+      <label for="phoneNum"
+        >Phone Number <input type="text" name="phoneNum"
+      /></label>
+      <label for="message"
+        >Message <textarea name="message" cols="30" rows="10"></textarea>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

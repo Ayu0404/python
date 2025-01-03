@@ -395,3 +395,11 @@ Introduction Jinja template
 1. Introduction to bootstrap
 2. A static webpage of a moving dummy company - moveit
 3. A static webpage of a dating website for dogs - tindog
+
+## Day 59 Capstone Project - Updated Blog
+
+Blogs using Flask, HTML, CSS, JS and Bootstrap
+
+## Day 60 HTML Forms and Flask
+
+Using HTML Form methods and Flask

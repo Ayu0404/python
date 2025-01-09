@@ -403,3 +403,7 @@ Blogs using Flask, HTML, CSS, JS and Bootstrap
 ## Day 60 HTML Forms and Flask
 
 Using HTML Form methods and Flask
+
+## Day 51 - Flask WTForms
+
+Creating forms using Jinga templates (inheritance) and Flask WTForms

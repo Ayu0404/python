@@ -404,6 +404,19 @@ Blogs using Flask, HTML, CSS, JS and Bootstrap
 
 Using HTML Form methods and Flask
 
-## Day 51 - Flask WTForms
+## Day 61 - Flask WTForms
 
 Creating forms using Jinga templates (inheritance) and Flask WTForms
+
+## Day 62 - Coffee and Wifi
+
+A Flask, Flask-WTF Project that takes information about a cafe and stores it in a csv file. Implemented in a virtual environment.
+Commands used
+
+1. `python -m venv .venv`
+2. `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` - for powershell
+3. `.venv\Scripts\activate`
+4. `$env:FLASK_APP = "main"`
+5. `$env:FLASK_ENV = "development"`
+6. `flask run`
+7. `deactivate` - Back out of the virtual environment

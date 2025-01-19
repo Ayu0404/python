@@ -418,5 +418,14 @@ Commands used
 3. `.venv\Scripts\activate`
 4. `$env:FLASK_APP = "main"`
 5. `$env:FLASK_ENV = "development"`
-6. `flask run`
-7. `deactivate` - Back out of the virtual environment
+6. `pip install -r requirements.txt` installing packages from requirements.txt
+7. `flask run --debug`
+8. `deactivate` - Back out of the virtual environment
+
+## Day 63 - Databases
+
+Motivation - [Library Catalog] (https://www.librarything.com/)
+An app that performs CRUD operations on book read by the user
+
+1. SQLite - used DB Browser for SQLite3
+2. SQLAlchemy - an ORM Object Relational Mapping library. Meaning to map the relations of db to object properties.

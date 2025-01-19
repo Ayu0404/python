@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add Book</title>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <p>Book Name - {{book.title}}</p>
+      <p>Author - {{book.author}}</p>
+      <p>Rating - {{book.rating}}</p>
+      <table>
+        <tr>
+          <label for="rating">Updated Rating</label>
+          <input type="text" name="rating" />
+        </tr>
+      </table>
+      <button type="submit">Save</button>
+    </form>
+  </body>
+</html>

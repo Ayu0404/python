@@ -424,8 +424,12 @@ Commands used
 
 ## Day 63 - Databases
 
-Motivation - [Library Catalog] (https://www.librarything.com/)
+Motivation - [Library Catalog](https://www.librarything.com/)
 An app that performs CRUD operations on book read by the user
 
 1. SQLite - used DB Browser for SQLite3
 2. SQLAlchemy - an ORM Object Relational Mapping library. Meaning to map the relations of db to object properties.
+
+## Day 64 - Top 10 movie websites
+
+CRUD Using - Flask,WTForms,SQLite,SQLAlchemy

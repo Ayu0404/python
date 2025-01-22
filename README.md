@@ -433,3 +433,7 @@ An app that performs CRUD operations on book read by the user
 ## Day 64 - Top 10 movie websites
 
 CRUD Using - Flask,WTForms,SQLite,SQLAlchemy
+
+## Day 65 - Web Design Principles
+
+[Designing Challenges](https://www.dailyui.co/)

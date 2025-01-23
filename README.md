@@ -437,3 +437,12 @@ CRUD Using - Flask,WTForms,SQLite,SQLAlchemy
 ## Day 65 - Web Design Principles
 
 [Designing Challenges](https://www.dailyui.co/)
+
+## Day 66 - Creating REST APIs
+
+REST - REpresentational State Transfer is an architectural design.
+Requests are made using , HTTPs, FTP
+1. REST Request Verbs - Get, Post, Put/Patch and Delete
+2. RL Patterns/Routes 
+
+__Serialization__ - Converting an SQL object into json.

@@ -440,9 +440,13 @@ CRUD Using - Flask,WTForms,SQLite,SQLAlchemy
 
 ## Day 66 - Creating REST APIs
 
-REST - REpresentational State Transfer is an architectural design.
-Requests are made using , HTTPs, FTP
-1. REST Request Verbs - Get, Post, Put/Patch and Delete
-2. RL Patterns/Routes 
+REST - REpresentational State Transfer is an architectural design. Requests are made using , HTTPs, FTP
 
-__Serialization__ - Converting an SQL object into json.
+1. REST Request Verbs - Get, Post, Put/Patch and Delete
+2. RL Patterns/Routes
+
+**Serialization** - Converting an SQL object into json.
+
+[APis created in this project](https://documenter.getpostman.com/view/39816403/2sAYQdkVao)
+
+## Day 67 - Blog Capstone Project

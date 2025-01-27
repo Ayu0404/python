@@ -5,7 +5,6 @@ app = Flask(__name__)
 
 # Connect to Database
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cafes.db'
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
 API_KEY = 'TopSecretAPIKey'
 

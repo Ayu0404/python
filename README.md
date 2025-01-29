@@ -450,3 +450,11 @@ REST - REpresentational State Transfer is an architectural design. Requests are 
 [APis created in this project](https://documenter.getpostman.com/view/39816403/2sAYQdkVao)
 
 ## Day 67 - Blog Capstone Project
+
+A sophisticated CRUD application - Flask,WTForms,SQLite,SQLAlchemy and other dependencies
+
+## Day - 68 - Flask Authentication
+
+Authentication using `Flask-Login`
+
+1. Register user and give them access to cheat sheet

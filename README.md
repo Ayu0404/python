@@ -455,6 +455,14 @@ A sophisticated CRUD application - Flask,WTForms,SQLite,SQLAlchemy and other dep
 
 ## Day - 68 - Flask Authentication
 
+Encryption, Hashing and salting (password + salt to generate a hash)
+Salt rounds - number of rounds the hash generated is hashed using the salt.
+
+Bcrypt - industry standard hashing algorithm.
+
 Authentication using `Flask-Login`
 
+[Most Common Passwords](https://www.passwordrandom.com/)
+
 1. Register user and give them access to cheat sheet
+2. Login and user authentication

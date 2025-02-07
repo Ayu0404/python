@@ -466,3 +466,6 @@ Authentication using `Flask-Login`
 
 1. Register user and give them access to cheat sheet
 2. Login and user authentication
+
+
+## Day - 69 - Blog post with authentication

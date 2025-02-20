@@ -1,5 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import String, Text
+from sqlalchemy import String
 from sqlalchemy.orm import DeclarativeBase, mapped_column, Mapped
 from flask_login import UserMixin
 

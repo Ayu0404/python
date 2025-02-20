@@ -24,7 +24,15 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
-      {% if all_posts|length > 0 %} {% for post in all_posts %}
+      {% with errors = get_flashed_messages(category_filter=["danger"]) %} {% if
+      errors %}
+      <div>
+        {% for error in errors %}
+        <p style="color: red">{{error}}</p>
+        {% endfor %}
+      </div>
+      {% endif %} {% endwith %} {% if all_posts|length > 0 %} {% for post in
+      all_posts %}
       <div class="post-preview">
         <a href="{{ url_for('show_post', post_id=post.id) }}">
           <h2 class="post-title">{{post.title}}</h2>
@@ -32,17 +40,19 @@
         </a>
         <p class="post-meta">
           Posted by
-          <a href="#">{{post.author}}</a>
-          on {{post.date}}
+          <a href="#">{{post.author.name}}</a>
+          on {{post.date}} {% if current_user.id==1 %}
 
-          <a href="{{url_for('delete_post', post_id=post.id) }}">✘</a>
+          <a href="{{url_for('delete_post',post_id=post.id)}}">❌</a>
+          {% endif %}
         </p>
       </div>
       <hr />
-      {% endfor %} {% else %}
+      {% endfor %} {% elif current_user.id==1 %}
       <h2>Write your first post now.</h2>
-      {% endif %}
-
+      {%else%}
+      <h2>No posts available.</h2>
+      {% endif %} {% if current_user.id==1 %}
       <!-- New Post -->
       <div class="clearfix">
         <a
@@ -51,7 +61,7 @@
           >Create New Post</a
         >
       </div>
-      
+      {% endif %}
     </div>
   </div>
 </div>

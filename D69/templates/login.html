@@ -24,7 +24,8 @@ block content %} {% include "header.html" %}
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto content">
-      {% with errors = get_flashed_messages(category_filter=["error"]) %} {% if
+      {% with errors =
+      get_flashed_messages(category_filter=["error","user_login"]) %} {% if
       errors %}
       <div>
         {% for error in errors %}

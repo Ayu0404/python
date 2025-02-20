@@ -467,5 +467,13 @@ Authentication using `Flask-Login`
 1. Register user and give them access to cheat sheet
 2. Login and user authentication
 
-
 ## Day - 69 - Blog post with authentication
+
+1. Database - User, Blog, Comment
+2. User registration/ login
+3. Admin- creates, edits and reads blog
+4. Other users can only read blogs
+5. All users can leave comments on blogs
+
+Gravatar allows to change the image the blog websites. [Gravatar](http://en.gravatar.com/)
+Didn't use [Flask Gravatar](https://pythonhosted.org/Flask-Gravatar/) because my flask version is too advanced.

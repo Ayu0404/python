@@ -477,3 +477,9 @@ Authentication using `Flask-Login`
 
 Gravatar allows to change the image the blog websites. [Gravatar](http://en.gravatar.com/)
 Didn't use [Flask Gravatar](https://pythonhosted.org/Flask-Gravatar/) because my flask version is too advanced.
+
+## Day - 70 App Deployment
+
+Using [pythonanywhere](https://www.pythonanywhere.com/user/Ayushi04/)
+Normal web servers can't run Python applications, so WSGI - (Web Server Gateway Interface) was created to run python application. Most popular WSGI is gunicorn.
+Deployed on Render [Here](https://angela-blog-1-2i41.onrender.com)

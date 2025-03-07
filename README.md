@@ -483,3 +483,23 @@ Didn't use [Flask Gravatar](https://pythonhosted.org/Flask-Gravatar/) because my
 Using [pythonanywhere](https://www.pythonanywhere.com/user/Ayushi04/)
 Normal web servers can't run Python applications, so WSGI - (Web Server Gateway Interface) was created to run python application. Most popular WSGI is gunicorn.
 Deployed on Render [Here](https://angela-blog-1-2i41.onrender.com)
+
+## Day 71 - Data Exploration with Pandas. Analysing Post-University Salaries of Graduates by Major
+
+Using Google Collabatory
+
+1. Exploring Pandas DataFrame, detecting NaN values, data cleaning,
+2. Select particular columns, rows, and individual cells
+3. Data Sorting and Grouping
+
+## Capstone projects start here
+
+They all have an individual readme.md file for introspection
+
+# Day 81 - String to Morse Code
+
+# Day 82 - Building a portfolio
+
+To be done at end.
+
+# Day 83 - Text based tic tac toe
